@@ -8,7 +8,9 @@
 
 ## Czym jest programowanie funkcyjne?
 ```java
-static int 
+static double f (double x) {
+    return Math.exp(x) * Math.exp(x);
+}
 ```
 
 ## Funkcje #1
