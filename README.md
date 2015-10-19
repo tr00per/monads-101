@@ -72,6 +72,12 @@ g (f x)
 (f . g) x <=> f (g x)
 
 (g . f) x <=> g (f x)
+
+h = f . g
+
+h :: ?
+
+h :: a -> a
 ```
 
 $$f(g(x)) = (f \circ g)(x)$$
