@@ -23,6 +23,8 @@ Dowodem na to jest fakt, że teoretycznie każdą funkcję można zastąpić odp
 ### Czyste funkcje
 `int f(int)`
 
+Jeśli używamy czystych funkcji, to możemy mówić o ich szczerości.
+
 ```
 (f(3), f(3))
 
