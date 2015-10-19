@@ -20,6 +20,16 @@ W programowaniu funkcyjnym funkcje nie są specjalnym tworem. Funkcje to dane.
 
 Dowodem na to jest fakt, że teoretycznie każdą funkcję można zastąpić odpowiednio duża tablicą. Pobieranie wyniku z takiej tablicy jest uniwersalną operacją, ale logika samej funkcji jest zamknięta w danych.
 
+### Czyste funkcje
+`int f(int)`
+
+```
+(f(3), f(3))
+
+let x = f(3)
+in (x, x)
+```
+
 ## Funkcje #1
 ### Notacja typów
 `int x;`
@@ -101,7 +111,7 @@ $$
 
 Przykłady: $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$
 
-$$ $$
+$$\{ \}$$
 
 ## Funkcje #2
 
