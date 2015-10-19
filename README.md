@@ -3,6 +3,8 @@
 ![](http://image.spreadshirtmedia.net/image-server/v1/products/115205650/views/1,width=350,height=350,appearanceId=5.png)
 
 * [Don't fear the Monad](https://channel9.msdn.com/Shows/Going+Deep/Brian-Beckman-Dont-fear-the-Monads) - Brian Beckman
+* [What is a database, really?](https://channel9.msdn.com/Series/Beckman-Meijer-Overdrive/Brian-Beckman-and-Erik-Meijer-What-is-a-database-really) - Erik Meijer, Brian Beckman
+* [Functional Programming](https://channel9.msdn.com/Shows/Going+Deep/Erik-Meijer-Functional-Programming) - Erik Meijer
 * [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html) - Stephen Diehl
 * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html) - Aditya Bhargava
 
@@ -88,17 +90,18 @@ $$f(g(x)) = (f \circ g)(x)$$
 ### Monoid
 Esencją monoidu jest tworzenie z dwóch bytów danego typu nowego, tego samego typu.
 
-Przykłady: $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$
-
 Dodatkowo zdefiniowana operacja musi być przechodnia:
 $$
 \forall_{x,y,z \in \mathbb{R}} (x + y) + z = x + (y + z)
 $$
+Oraz element neutralny:
 $$
 \exists_{\eta}\forall_{x \in \mathbb{R}} x + \eta = \eta + x = x
 $$
 
+Przykłady: $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$
 
+$$ $$
 
 ## Funkcje #2
 
