@@ -34,6 +34,7 @@ $$x \in \mathbb{Z}$$
 static <A> A f (A x) {
     //...
 }
+```
 
 ## Monoidy
 
