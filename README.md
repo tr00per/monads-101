@@ -40,7 +40,7 @@ static <A> A f (A x) {
 }
 ```
 
-### Łączenie
+### Jeszcze trochę notacji
 ```
 x :: a
 f :: a -> a
@@ -68,6 +68,9 @@ f x
 g (f x)
 ```
 
+## Monoidy
+### Łączenie
+
 ```
 (f . g) x <=> f (g x)
 
@@ -82,8 +85,9 @@ h :: a -> a
 
 $$f(g(x)) = (f \circ g)(x)$$
 
+Esencją monoidu jest tworzenie tworzenie z dwóch bytów danego typu nowego, tego samego typu.
 
-## Monoidy
+Monoid to inaczej półgrupa z jedynką. Półgrupa z jedynką to zbiór wartości, wewnętrzna operacja zdefiniowana na nim i element neutralny ("jedynka"), np. $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$.
 
 ## Funkcje #2
 
