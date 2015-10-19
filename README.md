@@ -87,7 +87,11 @@ $$f(g(x)) = (f \circ g)(x)$$
 
 Esencją monoidu jest tworzenie tworzenie z dwóch bytów danego typu nowego, tego samego typu.
 
-Monoid to inaczej półgrupa z jedynką. Półgrupa z jedynką to zbiór wartości, wewnętrzna operacja zdefiniowana na nim i element neutralny ("jedynka"), np. $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$.
+Monoid to inaczej półgrupa z jedynką. Półgrupa z jedynką to zbiór wartości, wewnętrzna operacja zdefiniowana na nim i element neutralny ("jedynka"), np. $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$. Dodatkowo zdefiniowana operacja musi być przechodnia:
+
+$$
+\forall_{x,y,z \in \mathbb{R}} (x + y) + z = x + (y + z)
+$$
 
 ## Funkcje #2
 
