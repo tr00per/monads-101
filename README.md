@@ -13,7 +13,27 @@ static double f (double x) {
 }
 ```
 
+W programowaniu funkcyjnym funkcje nie są specjalnym tworem. Funkcje to dane.
+
 ## Funkcje #1
+### Notacja typów
+`int x;`
+
+$$x \in \mathbb{Z}$$
+
+`x :: Int`
+
+`f :: Int -> Int`
+
+### Generyki
+`x :: a`
+
+`f :: a -> a`
+
+```java
+static <A> A f (A x) {
+    //...
+}
 
 ## Monoidy
 
