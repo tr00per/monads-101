@@ -85,6 +85,7 @@ h :: a -> a
 
 $$f(g(x)) = (f \circ g)(x)$$
 
+### Monoid
 Esencją monoidu jest tworzenie z dwóch bytów danego typu nowego, tego samego typu.
 
 Przykłady: $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$
@@ -96,6 +97,8 @@ $$
 $$
 \exists_{\eta}\forall_{x \in \mathbb{R}} x + \eta = \eta + x = x
 $$
+
+
 
 ## Funkcje #2
 
