@@ -40,6 +40,8 @@ static <A> A f (A x) {
 }
 ```
 
+`g :: a -> a`
+
 ## Monoidy
 
 ## Funkcje #2
