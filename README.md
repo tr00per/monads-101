@@ -40,7 +40,42 @@ static <A> A f (A x) {
 }
 ```
 
-`g :: a -> a`
+### Łączenie
+```
+x :: a
+f :: a -> a
+g :: a -> a
+```
+
+```
+g(x)
+
+f(g(x))
+
+f(x)
+
+g(f(x))
+
+```
+
+```
+g x
+
+f (g x)
+
+f x
+
+g (f x)
+```
+
+```
+(f . g) x <=> f (g x)
+
+(g . f) x <=> g (f x)
+```
+
+$$f(g(x)) = (f \circ g)(x)$$
+
 
 ## Monoidy
 
