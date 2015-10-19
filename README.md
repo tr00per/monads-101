@@ -85,7 +85,7 @@ h :: a -> a
 
 $$f(g(x)) = (f \circ g)(x)$$
 
-Esencją monoidu jest tworzenie tworzenie z dwóch bytów danego typu nowego, tego samego typu.
+Esencją monoidu jest tworzenie z dwóch bytów danego typu nowego, tego samego typu.
 
 Przykłady: $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$
 
