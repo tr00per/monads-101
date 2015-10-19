@@ -9,7 +9,8 @@
 ## Czym jest programowanie funkcyjne?
 ```java
 static double f (double x) {
-    return Math.exp(x) * Math.exp(x);
+    // ...
+    return y;
 }
 ```
 
@@ -33,6 +34,7 @@ $$x \in \mathbb{Z}$$
 ```java
 static <A> A f (A x) {
     //...
+    return y;
 }
 ```
 
