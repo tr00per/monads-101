@@ -16,6 +16,8 @@ static double f (double x) {
 
 W programowaniu funkcyjnym funkcje nie są specjalnym tworem. Funkcje to dane.
 
+Dowodem na to jest fakt, że teoretycznie każdą funkcję można zastąpić odpowiednio duża tablicą. Pobieranie wyniku z takiej tablicy jest uniwersalną operacją, ale logika samej funkcji jest zamknięta w danych.
+
 ## Funkcje #1
 ### Notacja typów
 `int x;`
