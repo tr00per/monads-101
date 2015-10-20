@@ -10,3 +10,4 @@
 * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html) - Aditya Bhargava
 * [Scala Monads: Declutter Your Code With Monadic Design](https://www.youtube.com/watch?v=Mw_Jnn_Y5iA) - Dan Rosen
 * [O monadach i źródle cytatu na koszulce](http://stackoverflow.com/a/3870310/572370) - Tom Crockett
+* [A Tale of Two Monads](http://www.slideshare.net/funthr/a-tale-of-two-monads) - Liang-Ting Chen
