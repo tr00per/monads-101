@@ -114,6 +114,8 @@ Tarcza zegara: $$(\{1,2,3,4,5,6,7,8,9,10,11,12\})$$
 ## Monady
 
 ## Z kamerą wśród monad
-### Option
-### Validation
-### List
+### Option (scala)
+### Validation (scala)
+### List (scala)
+### State (scalaz)
+### Undo (scalaz)
