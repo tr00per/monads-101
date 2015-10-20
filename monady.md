@@ -2,12 +2,6 @@
 
 ![](http://image.spreadshirtmedia.net/image-server/v1/products/115205650/views/1,width=350,height=350,appearanceId=5.png)
 
-* [Don't fear the Monad](https://channel9.msdn.com/Shows/Going+Deep/Brian-Beckman-Dont-fear-the-Monads) - Brian Beckman
-* [What is a database, really?](https://channel9.msdn.com/Series/Beckman-Meijer-Overdrive/Brian-Beckman-and-Erik-Meijer-What-is-a-database-really) - Erik Meijer, Brian Beckman
-* [Functional Programming](https://channel9.msdn.com/Shows/Going+Deep/Erik-Meijer-Functional-Programming) - Erik Meijer
-* [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html) - Stephen Diehl
-* [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html) - Aditya Bhargava
-
 ## Czym jest programowanie funkcyjne?
 ```java
 static double f (double x) {
@@ -113,8 +107,13 @@ $$
 
 Przykłady: $$(\mathbb{R}, *, 1)$$, $$(\mathbb{R}, +, 0)$$
 
-$$\{ \}$$
+Tarcza zegara: $$(\{1,2,3,4,5,6,7,8,9,10,11,12\})$$
 
 ## Funkcje #2
 
 ## Monady
+
+## Z kamerą wśród monad
+### Option
+### Validation
+### List
