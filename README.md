@@ -7,3 +7,4 @@
 * [Functional Programming](https://channel9.msdn.com/Shows/Going+Deep/Erik-Meijer-Functional-Programming) - Erik Meijer
 * [Monads Made Difficult](http://www.stephendiehl.com/posts/monads.html) - Stephen Diehl
 * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html) - Aditya Bhargava
+* [Scala Monads: Declutter Your Code With Monadic Design]()
